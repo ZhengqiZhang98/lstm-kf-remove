@@ -1,0 +1,38 @@
+nohup: ignoring input
+[INFO] Saved splits to /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/splits.json
+/home_net/ge23lac/anaconda3/envs/lstm-kf/lib/python3.10/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+[INFO] lane_centers (data units, Local_X) = [-2.383601427078247, -1.7705196142196655, -1.1574376821517944]
+[Epoch 001/10] train=0.542554 | val=0.463678
+[INFO] New best checkpoint saved (val=0.463678)
+[Epoch 002/10] train=0.522680 | val=0.461971
+[INFO] New best checkpoint saved (val=0.461971)
+[Epoch 003/10] train=0.521613 | val=0.461679
+[INFO] New best checkpoint saved (val=0.461679)
+[Epoch 004/10] train=0.520980 | val=0.461216
+[INFO] New best checkpoint saved (val=0.461216)
+[Epoch 005/10] train=0.520879 | val=0.461036
+[INFO] New best checkpoint saved (val=0.461036)
+[Epoch 006/10] train=0.520503 | val=0.460767
+[INFO] New best checkpoint saved (val=0.460767)
+[Epoch 007/10] train=0.520396 | val=0.460662
+[INFO] New best checkpoint saved (val=0.460662)
+[Epoch 008/10] train=0.520239 | val=0.460403
+[INFO] New best checkpoint saved (val=0.460403)
+[Epoch 009/10] train=0.519936 | val=0.460492
+[Epoch 010/10] train=0.519880 | val=0.460224
+[INFO] New best checkpoint saved (val=0.460224)
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_00.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_00.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_01.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_01.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_02.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_02.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_03.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_03.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_04.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_04.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_05.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/val_05.png
+[VIZ] manifest saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/viz/manifest.json
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_64000/final_plot.png
