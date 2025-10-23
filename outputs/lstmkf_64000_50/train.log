@@ -1,0 +1,77 @@
+nohup: ignoring input
+[INFO] Saved splits to /sq/home/ge23lac/lstm-kf/outputs/lstmkf_64000_50/splits.json
+[Epoch 001/60] train=0.107384 | val=0.074702
+[INFO] New best checkpoint saved (val=0.074702)
+[Epoch 002/60] train=0.089301 | val=0.075686
+[Epoch 003/60] train=0.088863 | val=0.074800
+[Epoch 004/60] train=0.088801 | val=0.074586
+[INFO] New best checkpoint saved (val=0.074586)
+[Epoch 005/60] train=0.088589 | val=0.075023
+[Epoch 006/60] train=0.088393 | val=0.074045
+[INFO] New best checkpoint saved (val=0.074045)
+[Epoch 007/60] train=0.088487 | val=0.074425
+[Epoch 008/60] train=0.088295 | val=0.073880
+[INFO] New best checkpoint saved (val=0.073880)
+[Epoch 009/60] train=0.088294 | val=0.073969
+[Epoch 010/60] train=0.088129 | val=0.073173
+[INFO] New best checkpoint saved (val=0.073173)
+[Epoch 011/60] train=0.088137 | val=0.073593
+[Epoch 012/60] train=0.088110 | val=0.075044
+[Epoch 013/60] train=0.088191 | val=0.073422
+[Epoch 014/60] train=0.088080 | val=0.074206
+[Epoch 015/60] train=0.088087 | val=0.074982
+[Epoch 016/60] train=0.088026 | val=0.074298
+[Epoch 017/60] train=0.087993 | val=0.074781
+[Epoch 018/60] train=0.088131 | val=0.073711
+[Epoch 019/60] train=0.087960 | val=0.073826
+[Epoch 020/60] train=0.088012 | val=0.074027
+[Epoch 021/60] train=0.087995 | val=0.073976
+[Epoch 022/60] train=0.087962 | val=0.074224
+[Epoch 023/60] train=0.087945 | val=0.073994
+[Epoch 024/60] train=0.087925 | val=0.074318
+[Epoch 025/60] train=0.088044 | val=0.073987
+[Epoch 026/60] train=0.087936 | val=0.073498
+[Epoch 027/60] train=0.087822 | val=0.074112
+[Epoch 028/60] train=0.087836 | val=0.073919
+[Epoch 029/60] train=0.087855 | val=0.073886
+[Epoch 030/60] train=0.087841 | val=0.073186
+[Epoch 031/60] train=0.087948 | val=0.074494
+[Epoch 032/60] train=0.087774 | val=0.074059
+[Epoch 033/60] train=0.087782 | val=0.074690
+[Epoch 034/60] train=0.087980 | val=0.073422
+[Epoch 035/60] train=0.087963 | val=0.072847
+[INFO] New best checkpoint saved (val=0.072847)
+[Epoch 036/60] train=0.087804 | val=0.073720
+[Epoch 037/60] train=0.087879 | val=0.074107
+[Epoch 038/60] train=0.087940 | val=0.073384
+[Epoch 039/60] train=0.087862 | val=0.072955
+[Epoch 040/60] train=0.087890 | val=0.074501
+[Epoch 041/60] train=0.087778 | val=0.074643
+[Epoch 042/60] train=0.087869 | val=0.073450
+[Epoch 043/60] train=0.087788 | val=0.074544
+[Epoch 044/60] train=0.087777 | val=0.073228
+[Epoch 045/60] train=0.087763 | val=0.074023
+[Epoch 046/60] train=0.087811 | val=0.073931
+[Epoch 047/60] train=0.087814 | val=0.073536
+[Epoch 048/60] train=0.087701 | val=0.074088
+[Epoch 049/60] train=0.087710 | val=0.073023
+[Epoch 050/60] train=0.087686 | val=0.072710
+[INFO] New best checkpoint saved (val=0.072710)
+[Epoch 051/60] train=0.087702 | val=0.073669
+[Epoch 052/60] train=0.087699 | val=0.073506
+[Epoch 053/60] train=0.087615 | val=0.073515
+[Epoch 054/60] train=0.087682 | val=0.072885
+[Epoch 055/60] train=0.087682 | val=0.073661
+[Epoch 056/60] train=0.087573 | val=0.073320
+[Epoch 057/60] train=0.087792 | val=0.073300
+[Epoch 058/60] train=0.087715 | val=0.073776
+[Epoch 059/60] train=0.087722 | val=0.073862
+[Epoch 060/60] train=0.087716 | val=0.073364
+Traceback (most recent call last):
+  File "/sq/home/ge23lac/lstm-kf/lstmkf_train.py", line 1113, in <module>
+    main()
+  File "/sq/home/ge23lac/lstm-kf/lstmkf_train.py", line 1046, in main
+    idx = pick_good_sample(x_hist_full21, y_fut_full21)
+  File "/sq/home/ge23lac/lstm-kf/lstmkf_train.py", line 527, in pick_good_sample
+    mask_all   = torch.cat([mask_hist7, mask_fut7], dim=1)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_CUDA_cat)
