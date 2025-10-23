@@ -1,0 +1,56 @@
+nohup: ignoring input
+[INFO] Saved splits to /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_640000/splits.json
+/home_net/ge23lac/anaconda3/envs/lstm-kf/lib/python3.10/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+[INFO] lane_centers (data units, Local_X) = [-2.383601427078247, -1.7705196142196655, -1.1574376821517944]
+[Epoch 001/50] train=0.520935 | val=0.510441
+[INFO] New best checkpoint saved (val=0.510441)
+[Epoch 002/50] train=0.517518 | val=0.510171
+[INFO] New best checkpoint saved (val=0.510171)
+[Epoch 003/50] train=0.517404 | val=0.510101
+[INFO] New best checkpoint saved (val=0.510101)
+[Epoch 004/50] train=0.517373 | val=0.510156
+[Epoch 005/50] train=0.517233 | val=0.510013
+[INFO] New best checkpoint saved (val=0.510013)
+[Epoch 006/50] train=0.517137 | val=0.509935
+[INFO] New best checkpoint saved (val=0.509935)
+[Epoch 007/50] train=0.517090 | val=0.510022
+[Epoch 008/50] train=0.517080 | val=0.510006
+[Epoch 009/50] train=0.517029 | val=0.509973
+[Epoch 010/50] train=0.517027 | val=0.510030
+[Epoch 011/50] train=0.517026 | val=0.510028
+[Epoch 012/50] train=0.516986 | val=0.509805
+[INFO] New best checkpoint saved (val=0.509805)
+[Epoch 013/50] train=0.516924 | val=0.510091
+[Epoch 014/50] train=0.516945 | val=0.509875
+[Epoch 015/50] train=0.516986 | val=0.509843
+[Epoch 016/50] train=0.516941 | val=0.509924
+[Epoch 017/50] train=0.516899 | val=0.509767
+[INFO] New best checkpoint saved (val=0.509767)
+[Epoch 018/50] train=0.516870 | val=0.509734
+[INFO] New best checkpoint saved (val=0.509734)
+[Epoch 019/50] train=0.516890 | val=0.509796
+[Epoch 020/50] train=0.516934 | val=0.509862
+[Epoch 021/50] train=0.516880 | val=0.509809
+[Epoch 022/50] train=0.516851 | val=0.509692
+[INFO] New best checkpoint saved (val=0.509692)
+[Epoch 023/50] train=0.516881 | val=0.509683
+[INFO] New best checkpoint saved (val=0.509683)
+[Epoch 024/50] train=0.516849 | val=0.509734
+[Epoch 025/50] train=0.516803 | val=0.509856
+[Epoch 026/50] train=0.516811 | val=0.509853
+[Epoch 027/50] train=0.516845 | val=0.509843
+[Epoch 028/50] train=0.516784 | val=0.509682
+[INFO] New best checkpoint saved (val=0.509682)
+[Epoch 029/50] train=0.516799 | val=0.509687
+[Epoch 030/50] train=0.516776 | val=0.509819
+[Epoch 031/50] train=0.516858 | val=0.509755
+[Epoch 032/50] train=0.516823 | val=0.509645
+[INFO] New best checkpoint saved (val=0.509645)
+[Epoch 033/50] train=0.516827 | val=0.509668
+[Epoch 034/50] train=0.516787 | val=0.510292
+[Epoch 035/50] train=0.516793 | val=0.509808
+[Epoch 036/50] train=0.516801 | val=0.509884
+[Epoch 037/50] train=0.516807 | val=0.509654
+[Epoch 038/50] train=0.516751 | val=0.510029
+[Epoch 039/50] train=0.516772 | val=0.509685
