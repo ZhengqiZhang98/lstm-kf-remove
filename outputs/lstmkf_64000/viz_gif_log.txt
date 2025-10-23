@@ -1,0 +1,6 @@
+[INFO] save to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_64000/anim_ev.gif
+[INFO] H=25 F=25
+[INFO] split val size = 6225
+[INFO] using sample: veh=1551 frame=7175
+[INFO] available writers: ['pillow', 'html']
+[OK] Saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_64000/anim_ev.gif
