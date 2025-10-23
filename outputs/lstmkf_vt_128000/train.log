@@ -1,0 +1,67 @@
+nohup: ignoring input
+[INFO] Saved splits to /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/splits.json
+/home_net/ge23lac/anaconda3/envs/lstm-kf/lib/python3.10/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+[INFO] lane_centers (data units, Local_X) = [-2.383601427078247, -1.7705196142196655, -1.1574376821517944]
+[Epoch 001/30] train=0.533592 | val=0.518230
+[INFO] New best checkpoint saved (val=0.518230)
+[Epoch 002/30] train=0.522328 | val=0.517048
+[INFO] New best checkpoint saved (val=0.517048)
+[Epoch 003/30] train=0.521583 | val=0.516947
+[INFO] New best checkpoint saved (val=0.516947)
+[Epoch 004/30] train=0.521167 | val=0.516365
+[INFO] New best checkpoint saved (val=0.516365)
+[Epoch 005/30] train=0.521083 | val=0.516298
+[INFO] New best checkpoint saved (val=0.516298)
+[Epoch 006/30] train=0.520849 | val=0.516128
+[INFO] New best checkpoint saved (val=0.516128)
+[Epoch 007/30] train=0.520753 | val=0.516070
+[INFO] New best checkpoint saved (val=0.516070)
+[Epoch 008/30] train=0.520647 | val=0.516029
+[INFO] New best checkpoint saved (val=0.516029)
+[Epoch 009/30] train=0.520782 | val=0.515965
+[INFO] New best checkpoint saved (val=0.515965)
+[Epoch 010/30] train=0.520568 | val=0.516124
+[Epoch 011/30] train=0.520612 | val=0.516039
+[Epoch 012/30] train=0.520585 | val=0.516044
+[Epoch 013/30] train=0.520594 | val=0.515955
+[INFO] New best checkpoint saved (val=0.515955)
+[Epoch 014/30] train=0.520574 | val=0.515952
+[INFO] New best checkpoint saved (val=0.515952)
+[Epoch 015/30] train=0.520567 | val=0.515928
+[INFO] New best checkpoint saved (val=0.515928)
+[Epoch 016/30] train=0.520641 | val=0.515913
+[INFO] New best checkpoint saved (val=0.515913)
+[Epoch 017/30] train=0.520465 | val=0.515915
+[Epoch 018/30] train=0.520411 | val=0.515828
+[INFO] New best checkpoint saved (val=0.515828)
+[Epoch 019/30] train=0.520522 | val=0.516121
+[Epoch 020/30] train=0.520456 | val=0.515868
+[Epoch 021/30] train=0.520354 | val=0.515827
+[INFO] New best checkpoint saved (val=0.515827)
+[Epoch 022/30] train=0.520495 | val=0.515711
+[INFO] New best checkpoint saved (val=0.515711)
+[Epoch 023/30] train=0.520454 | val=0.515834
+[Epoch 024/30] train=0.520431 | val=0.515970
+[Epoch 025/30] train=0.520485 | val=0.515818
+[Epoch 026/30] train=0.520375 | val=0.515712
+[Epoch 027/30] train=0.520417 | val=0.515811
+[Epoch 028/30] train=0.520391 | val=0.515602
+[INFO] New best checkpoint saved (val=0.515602)
+[Epoch 029/30] train=0.520326 | val=0.515566
+[INFO] New best checkpoint saved (val=0.515566)
+[Epoch 030/30] train=0.520304 | val=0.515698
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_00.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_00.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_01.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_01.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_02.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_02.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_03.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_03.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_04.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_04.png
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_05.png
+[VIZ] saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/val_05.png
+[VIZ] manifest saved: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/viz/manifest.json
+Saved figure to: /sq/home/ge23lac/lstm-kf/outputs/lstmkf_vt_128000/final_plot.png
