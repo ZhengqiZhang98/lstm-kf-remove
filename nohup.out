@@ -1,0 +1,12 @@
+usage: Train LSTM-KF (Euclidean loss Eq.21) with TB logging
+       [-h] --csv CSV --stats-json STATS_JSON [--hist-len HIST_LEN]
+       [--future-len FUTURE_LEN] [--batch-size BATCH_SIZE] [--epochs EPOCHS]
+       [--lr LR] [--weight-decay WEIGHT_DECAY] [--workers WORKERS]
+       [--device {auto,cpu,cuda}] [--val-split VAL_SPLIT]
+       [--test-split TEST_SPLIT] [--split-by {vehicle,time,random}]
+       [--save-splits] [--seed SEED] [--out OUT] [--dropout DROPOUT] [--amp]
+       [--grad-clip GRAD_CLIP] [--lambda-prior LAMBDA_PRIOR]
+       [--f-hidden F_HIDDEN] [--f-layers F_LAYERS] [--q-hidden Q_HIDDEN]
+       [--r-hidden R_HIDDEN] [--fdiag-hidden FDIAG_HIDDEN] [--resume RESUME]
+       [--eval-only] [--eval-test]
+Train LSTM-KF (Euclidean loss Eq.21) with TB logging: error: unrecognized arguments:  
